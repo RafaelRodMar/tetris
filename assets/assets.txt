@@ -1,0 +1,10 @@
+fnt font sansation.ttf
+img frame frame.png
+img background background.png
+img gameover gameover.png
+img menu menu.png
+img splash splash.png
+img tiles tiles.png
+mus music Kingstux_-_04_-_Tetris_Trance.ogg
+snd line line.wav
+
