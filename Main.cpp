@@ -147,10 +147,10 @@ void GamePaint(sf::RenderWindow &window)
             pGame->showTexture("frame",0,0,window);
 
             //draw the score
-            std::string sc = "SCORE:  " + std::to_string(score);
+            std::string sc = "SCORE:  \n" + std::to_string(score);
             pGame->Text(sc,240,20,sf::Color::Black, 20, "font", window);
 
-            pGame->DrawSprites(window);
+            //pGame->DrawSprites(window);
             break;
         }
     case END_GAME:
